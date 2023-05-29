@@ -1,3 +1,0 @@
-Stm32_f103c6_Drivers_RCC.c:15:6:RCC_voidEnableClock	16	static
-Stm32_f103c6_Drivers_RCC.c:33:6:RCC_voidDisableClock	16	static
-Stm32_f103c6_Drivers_RCC.c:52:6:RCC_voidInitSysClocks	4	static
