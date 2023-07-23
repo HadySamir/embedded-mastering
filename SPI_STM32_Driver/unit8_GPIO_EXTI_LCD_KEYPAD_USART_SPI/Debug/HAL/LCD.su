@@ -1,0 +1,8 @@
+LCD.c:21:6:LCD_clear_screen	8	static
+LCD.c:33:6:LCD_lcd_kick	8	static
+LCD.c:49:6:LCD_GOTO_XY	16	static
+LCD.c:75:6:LCD_check_lcd_isbusy	8	static
+LCD.c:126:6:LCD_init	8	static
+LCD.c:216:6:LCD_Send_A_Command	16	static
+LCD.c:246:6:LCD_Send_A_Character	16	static
+LCD.c:272:6:LCD_Send_String	24	static

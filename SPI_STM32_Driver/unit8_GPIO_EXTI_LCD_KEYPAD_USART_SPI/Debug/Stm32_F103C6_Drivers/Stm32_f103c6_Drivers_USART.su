@@ -1,0 +1,9 @@
+Stm32_f103c6_Drivers_USART.c:39:6:USART_init	24	static
+Stm32_f103c6_Drivers_USART.c:115:6:USART_DeInit	16	static
+Stm32_f103c6_Drivers_USART.c:142:6:USART_SetPins	24	static
+Stm32_f103c6_Drivers_USART.c:272:6:USART_Send	24	static
+Stm32_f103c6_Drivers_USART.c:330:6:USART_Recieve	24	static
+Stm32_f103c6_Drivers_USART.c:442:6:USART_Wait_TC	16	static
+Stm32_f103c6_Drivers_USART.c:454:6:USART1_IRQHandler	8	static
+Stm32_f103c6_Drivers_USART.c:457:6:USART2_IRQHandler	8	static
+Stm32_f103c6_Drivers_USART.c:460:6:USART3_IRQHandler	8	static
