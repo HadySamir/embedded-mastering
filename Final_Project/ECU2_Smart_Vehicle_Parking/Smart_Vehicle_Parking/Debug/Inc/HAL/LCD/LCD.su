@@ -1,0 +1,13 @@
+LCD.c:91:13:xDelay	24	static
+LCD.c:105:6:LCD_voidInit	16	static
+LCD.c:148:6:LCD_voidSendChar	16	static
+LCD.c:184:6:LCD_voidSendString	24	static
+LCD.c:194:6:LCD_voidSendStringAt	24	static
+LCD.c:199:6:LCD_voidSetCursorType	16	static
+LCD.c:205:6:LCD_voidSetDisplayState	16	static
+LCD.c:218:6:LCD_voidGotoXY	24	static
+LCD.c:259:6:LCD_voidClear	16	static
+LCD.c:265:6:LCD_voidStoreCustomChar	32	static
+LCD.c:294:6:LCD_voidSendNumber	40	static
+LCD.c:301:6:LCD_voidDispCustomChar	16	static
+LCD.c:312:6:LCD_voidWriteCmd	16	static

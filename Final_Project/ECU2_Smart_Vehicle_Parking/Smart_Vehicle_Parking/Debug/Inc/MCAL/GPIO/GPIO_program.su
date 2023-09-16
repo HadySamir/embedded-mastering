@@ -1,0 +1,7 @@
+GPIO_program.c:24:6:GPIO_voidSetPinDirection	16	static
+GPIO_program.c:90:6:GPIO_voidSetPortDirection	24	static
+GPIO_program.c:130:6:GPIO_voidSetPinValue	16	static
+GPIO_program.c:182:6:GPIO_voidSetPortValue	16	static
+GPIO_program.c:225:6:GPIO_voidTogglePinValue	16	static
+GPIO_program.c:248:4:GPIO_u8GetPinValue	24	static
+GPIO_program.c:273:6:GPIO_u8ChoosePullMode	16	static
