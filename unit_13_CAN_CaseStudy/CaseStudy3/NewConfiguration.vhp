@@ -1,0 +1,72 @@
+{
+  "Content": {
+    "Devices": [
+      {
+        "AppChannels": {
+          "ChannelConfigs": []
+        },
+        "Characteristics": {
+          "IdentificationMethod": 0,
+          "PartNumber": 7000,
+          "SerialNumber": 100
+        },
+        "Id": "d894ad8d-be6e-4ef8-9296-911acebf74ca",
+        "Info": {
+          "ConnectionType": 0,
+          "CustomChannels": [],
+          "DriverVersion": "21.10.20",
+          "IsArchived": false,
+          "Modules": {},
+          "Piggies": {}
+        }
+      },
+      {
+        "AppChannels": {
+          "ChannelConfigs": [
+            {
+              "ApplicationChannelIndex": 0,
+              "ApplicationName": "CANoe",
+              "BusType": 0,
+              "DeviceChannelIndex": 0
+            },
+            {
+              "ApplicationChannelIndex": 1,
+              "ApplicationName": "CANoe",
+              "BusType": 0,
+              "DeviceChannelIndex": 1
+            }
+          ]
+        },
+        "Characteristics": {
+          "IdentificationMethod": 1,
+          "PartNumber": 7000
+        },
+        "Id": "ba13923b-f53c-4674-8782-4d6063173f37",
+        "Info": {
+          "ConnectionType": 0,
+          "IsArchived": false,
+          "Modules": {},
+          "Piggies": {}
+        }
+      }
+    ],
+    "HostConfig": {
+      "ApplicationNames": [
+        "CANalyzer",
+        "CANape",
+        "CANoe"
+      ],
+      "LegacyTimeSyncEnabled": true,
+      "PTPSlaveEnabled": false,
+      "ToolAccessConfigs": []
+    },
+    "MetaData": {
+      "Network": {
+        "VlanColors": {}
+      }
+    }
+  },
+  "Header": {
+    "ConfigVersion": "1.3"
+  }
+}

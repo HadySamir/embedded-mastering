@@ -1,0 +1,33 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  int speed =0 ;
+  int acc=0;
+  message Speed_MSG speed_msg;
+}
+on start{
+  write("HadySamir__CANoe Project");
+}
+on message ACC_CMD{
+  write("ECU2 Transmit");
+  if(this.ACC.phys ==1 ){
+    if(speed == 255)
+      speed = 255;
+    else
+      speed++;
+  }else{
+    if(speed == 0)
+      speed = 0;
+    else
+      speed--;
+  }
+  speed_msg.Speed.phys = speed;
+  output(speed_msg);
+}
+
+ 

@@ -1,0 +1,26 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  msTimer sendTimer;
+  const int timerPeriod = 1000;
+  message ACC_CMD Acc;
+  int acc=0;
+}
+on start{
+  write("HadySamir__CANoe Project");
+  setTimer(sendTimer , timerPeriod);
+}
+on message Speed_MSG{
+  write("ECU1 received from ECU2");
+}
+on timer sendTimer{
+  acc = @sysvar::ACC_System_Val;
+  Acc.ACC.phys = acc;
+  output(Acc);
+  setTimer(sendTimer , timerPeriod);
+}
